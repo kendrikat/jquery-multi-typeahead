@@ -28,6 +28,7 @@
         valueKey: 'value',
         tokenizer: false,
         local: "",
+        prefill: "",
         fixed: false
     }
 
@@ -110,8 +111,8 @@
             });
         }
 
-        if (multiTypeaheadOptions.local.length > 0) {
-            $.each(multiTypeaheadOptions.local, function (key, value) {
+        if (multiTypeaheadOptions.prefill.length > 0) {
+            $.each(multiTypeaheadOptions.prefill, function (key, value) {
                 $.addTag(value);
             });
             $.refresh();
