@@ -22,6 +22,10 @@ Features:
 * Flat-UI-Pro classes
 * ...
 
+Examples
+---------
+[Simple] 
+
 Version
 --------
 0.1.0
@@ -36,5 +40,6 @@ MIT License, full text of license see [here][License]
 [jQuery]: https://github.com/jquery/jquery
 [Bootstrap]: https://github.com/twitter/bootstrap
 [typeahead.js]: https://github.com/twitter/typeahead.js
+[Simple]: http://jsfiddle.net/everyman/M9ncv/
 
   
