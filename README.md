@@ -24,11 +24,30 @@ Features:
 
 Examples
 ---------
-[Simple] 
+[Simple]
+
+Just a bunch of tags:
+
+    $('#tags').multiTypeahead({
+      name: "tags",
+      valueKey: "name",
+      remote: 'tags.json?q=%QUERY'
+    });
+
+Tokenizer allows existing entries only:
+
+    $('#recipients').multiTypeahead({
+      name: "recipients",
+      valueKey: "name",
+      remote: 'users.json?q=%QUERY',
+      tokenizer: true,
+      delimiter: [",", " "] // default
+    });
+
 
 Version
 --------
-0.1.0
+0.1.1
 
 
 ## License
@@ -41,5 +60,3 @@ MIT License, full text of license see [here][License]
 [Bootstrap]: https://github.com/twitter/bootstrap
 [typeahead.js]: https://github.com/twitter/typeahead.js
 [Simple]: http://jsfiddle.net/everyman/M9ncv/
-
-  

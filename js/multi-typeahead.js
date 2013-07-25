@@ -1,7 +1,7 @@
 /*
- * multi-typeahead.js v0.1
+ * multi-typeahead.js v0.1.1
  *
- * jQuery Multi Typeahead Plugin v0.1.0
+ * jQuery Multi Typeahead Plugin v0.1.1
  * https://github.com/kendrikat/jquery-multi-typeahead.js
  *
  * Copyright 2013 Klaas Endrikat
